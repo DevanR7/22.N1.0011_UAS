@@ -1,0 +1,253 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+  }
+
+  .BackgroundContainer {
+    position: relative;
+  }
+
+  .Background {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 6.5rem;
+    z-index: -1;
+  }
+
+  .Logo {
+    margin: 10px;
+    width: 15vw;
+    height: auto;
+  }
+
+  .overlay {
+    margin-top: -10vw;
+  }
+
+  .navbar-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    padding-left: 2vw;
+    font-size: 25px;
+  }
+
+  nav {
+    background-color: #2294e6;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 6vh;
+    width: 97.9vw;
+  }
+
+  .pilihan,
+  .Logout {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .Hover {
+    display: flex;
+    align-items: center;
+    color: rgb(199, 21, 21);
+    background-color: transparent;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .Hover.scrolled {
+    background-color: chocolate;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .Hover {
+    vertical-align: middle;
+  }
+
+  header {
+    color: rgb(230, 171, 171);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+  }
+
+  main {
+    margin-top: 210px;
+    height: auto;
+    overflow-y: auto; /* Tambahkan overflow-y untuk memunculkan bilah gulir jika kontennya melebihi tinggi tampilan */
+  }
+
+  .Rectangle01 {
+    background-color: #2294e6;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: -12.5rem;
+    position: absolute;
+  }
+
+  .Rectangle02 {
+    background-color: #2294e6;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .Info_Seat {
+    padding-left: 20%;
+  }
+
+  .seat {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Rectangle03 {
+    background-color: #2294e6;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  .Isi03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Reservation {
+    border-radius: 30%;
+    background-color: rgb(237, 237, 237);
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3a8a9e;
+    border: 1px solid #d6bcd6;
+  }
+
+  .Reservation:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+
+  .Reservation:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .Reservation {
+    border-radius: 6px;
+    font-size: 20px;
+  }
+
+  .Rectangle04 {
+    background-color: #2294e6;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .Isi04 {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .myButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+  }
+  .myButton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+
+  button {
+    border-radius: 30%;
+    background-color: rgb(237, 237, 237);
+    font-size: 20px;
+  }
+
+  .Rectangle05 {
+    background-color: #2294e6;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .Contact {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 2px;
+    font-family: "Roboto", sans-serif;
+  }
+}

@@ -1,0 +1,275 @@
+@media only screen and (max-width: 767px) {
+  body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    overflow-x:hidden;
+  }
+
+  .BackgroundContainer {
+    position: relative;
+  }
+
+  .Background {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 2.5rem;
+    z-index: -1;
+  }
+
+  .Logo {
+    width: 12vw;
+    height: auto;
+  }
+
+  .overlay {
+    margin-top: -13vw;
+    padding-right: 12rem;
+  }
+
+  .navbar-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    padding-left: 2vw;
+    font-size: 13px;
+  }
+
+  nav {
+    background-color: #2294e6;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 5vh;
+    width: 100vw;
+  }
+
+  .pilihan,
+  .Logout {
+    font-size: 8px;
+    padding: 8px 10px;
+  }
+
+  .Hover {
+    display: flex;
+    align-items: center;
+    color: rgb(199, 21, 21);
+    background-color: transparent;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .Hover.scrolled {
+    background-color: chocolate;
+  }
+
+  h1 {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h3 {
+    font-size: 7px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .Hover {
+    vertical-align: middle;
+  }
+
+  header {
+    color: rgb(230, 171, 171);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    color: white;
+  }
+
+  main {
+    margin-top: 210px;
+    height: auto;
+    overflow-y: auto; /* Tambahkan overflow-y untuk memunculkan bilah gulir jika kontennya melebihi tinggi tampilan */
+  }
+
+  .Rectangle01 {
+    background-color: #2294e6;
+    font-size: 12px;
+    width: 100vw;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: -12.5rem;
+    position: absolute;
+  }
+
+  .Rectangle02 {
+    background-color: #2294e6;
+    font-size: 12px;
+    width: 100vw;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: -2rem;
+  }
+
+  .Info_Seat {
+    padding-left: 15%;
+    width: 60vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .Info_Seat2 {
+    padding-left: 15%;
+    width: 60vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .seat {
+    align-items: center;
+    text-align: center;
+    padding-right: 10%;
+    font-size: 20px;
+  }
+
+  .Rectangle03 {
+    background-color: #2294e6;
+    font-size: 12px;
+    width: 100vw;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    position: absolute;
+  }
+
+  .Isi03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 2rem;
+  }
+  .Barcode {
+    padding-top: 2rem;
+    width: 20vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .Reservation {
+    border-radius: 30%;
+    background-color: rgb(237, 237, 237);
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3a8a9e;
+    border: 1px solid #d6bcd6;
+  }
+
+  .Reservation:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+
+  .Reservation:active {
+    position: relative;
+    top: 1px;
+  }
+
+  .Reservation {
+    border-radius: 6px;
+    font-size: 20px;
+  }
+
+  .Rectangle04 {
+    background-color: #2294e6;
+    font-size: 12px;
+    width: 100vw;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    position: absolute;
+  }
+
+  .Isi04 {
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    padding-right: 2rem;
+  }
+
+  .myButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+  }
+  .myButton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+
+  button {
+    border-radius: 30%;
+    background-color: rgb(237, 237, 237);
+    font-size: 20px;
+  }
+
+  .Rectangle05 {
+    background-color: #2294e6;
+    font-size: 20px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .Contact {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 2px;
+    font-family: "Roboto", sans-serif;
+  }
+}
